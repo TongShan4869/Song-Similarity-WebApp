@@ -114,9 +114,7 @@ if (len(options) < 2) and (sim_score):
 
 st.markdown('''
             **Similarity values** 
-            - **0.5 to 1**: Very similar. Perhaps the same song. 
-            - **0 to 0.5**: Somewhat similar. Share some key characteristics 
-            - **-1 to 0**: Low to no similarity. Different songs.
+            A higher value means greater similarity, with a maximum of 1.
             ''')
 
 st.divider()
