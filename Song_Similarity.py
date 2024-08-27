@@ -41,6 +41,7 @@ st.title("🎶 Song Similarity")
 def read_df(file):
     df = pd.read_pickle(file)
     return df
+
 song_show_df = read_df('song_show_df.pkl')
 song_show_df['song_ls'] = song_show_df[['name','artist']].agg(' by '.join, axis=1)
 song_show_df['song_ls'] = song_show_df[['song_ls','type']].agg(' - '.join, axis=1)
@@ -116,6 +117,10 @@ st.markdown('''
             **Similarity values** 
             
             A higher value means greater similarity, with a maximum of 1.
+            ''')
+
+st.markdown('''
+            [**Try with your own music!**](https://song-similarity-webapp.streamlit.app/Try_with_your_music)
             ''')
 
 st.divider()
