@@ -114,6 +114,7 @@ if (len(options) < 2) and (sim_score):
 
 st.markdown('''
             **Similarity values** 
+            
             A higher value means greater similarity, with a maximum of 1.
             ''')
 
