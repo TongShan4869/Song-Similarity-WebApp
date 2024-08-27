@@ -124,3 +124,5 @@ st.link_button('Try with your own music!', 'https://song-similarity-webapp.strea
 
 st.divider()
 st.markdown('Made for the Erd&#337;s Institute\'s Deep Learning Boot Camp, Summer 2024.')
+st.markdown('[Project github](https://github.com/reggiebain/song-similarity-erdos/tree/main)')
+

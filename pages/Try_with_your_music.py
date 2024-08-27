@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.models as models
 
-st.set_page_config(layout="centered", page_icon="📁", page_title="TryYourself")
+st.set_page_config(layout="centered", page_icon="📁", page_title="Try_Your_Music")
 st.sidebar.header('Try it with your music!')
 
 device = torch.device('cpu')
@@ -71,8 +71,8 @@ def apply_model(file1, file2):
     return compute_cosine_similarity(emb1, emb2)
 
 ##########################################
-
-st.title('Song Similarity')
+ 
+st.title('🎶 Song Similarity')
 
 st.markdown('Welcome! This page is for testing our model on user-provided clips. Upload two music clips to see their similarity score:')
 
