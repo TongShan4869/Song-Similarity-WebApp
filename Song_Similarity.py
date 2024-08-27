@@ -123,6 +123,10 @@ st.markdown('''
 st.link_button('Try with your own music!', 'https://song-similarity-webapp.streamlit.app/Try_with_your_music')
 
 st.divider()
-st.markdown('Made for the Erd&#337;s Institute\'s Deep Learning Boot Camp, Summer 2024.')
-st.markdown('[Project github](https://github.com/reggiebain/song-similarity-erdos/tree/main)')
+st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png",width=30)
+st.markdown('''
+            [Project github](https://github.com/reggiebain/song-similarity-erdos/tree/main)
+            ''')
+st.markdown('Made for the Erd&#337;s In1stitute\'s Deep Learning Boot Camp, Summer 2024.')
+
 
