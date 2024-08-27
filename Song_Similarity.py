@@ -119,10 +119,8 @@ st.markdown('''
             A higher value means greater similarity, with a maximum of 1.
             ''')
 
-st.divider()
-st.markdown('''
-            [**Try with your own music!**](https://song-similarity-webapp.streamlit.app/Try_with_your_music)
-            ''')
+
+st.link_button('Try with your own music!', 'https://song-similarity-webapp.streamlit.app/Try_with_your_music')
 
 st.divider()
 st.markdown('Made for the Erd&#337;s Institute\'s Deep Learning Boot Camp, Summer 2024.')
