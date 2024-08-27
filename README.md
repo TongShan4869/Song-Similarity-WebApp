@@ -1,6 +1,7 @@
-# 🎈 Blank app template
+# 🎶 Song Similarity Web App
 
-A simple Streamlit app template for you to modify!
+Web app for project [*Good Composers Borrow, Great Composers Steal*](https://github.com/reggiebain/song-similarity-erdos/tree/main)
+
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
@@ -15,5 +16,7 @@ A simple Streamlit app template for you to modify!
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run Song_Similarity.py
    ```
+---
+Erd&#337;s Institute\'s Deep Learning Boot Camp, Summer 2024
