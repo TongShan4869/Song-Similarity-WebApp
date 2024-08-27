@@ -35,7 +35,7 @@ model.to(device)
 #if torch.cuda.is_available():
 #    model.cuda()
 #model.load_state_dict(torch.load('resnet18_model_weights.pth'))
-model.load_state_dict(torch.load('./resnet18_model_weights.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('Song-Similarity-WebApp/pages/resnet18_model_weights.pth', map_location=torch.device('cpu')))
 
 def extract_embedding(model, audio_data_clip, sr=22050, use_model=True):
     y = audio_data_clip
